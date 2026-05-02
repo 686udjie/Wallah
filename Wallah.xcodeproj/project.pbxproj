@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		1452FB4D2FA6498F00C45F74 /* WallahSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WallahSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		147F3D752F952208007AB69B /* Wallah.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wallah.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		1452FB4E2FA6498F00C45F74 /* WallahSaver */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WallahSaver;
+			sourceTree = "<group>";
+		};
 		147F3D772F952208007AB69B /* Wallah */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Wallah;
@@ -19,6 +25,13 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1452FB4A2FA6498F00C45F74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		147F3D722F952208007AB69B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -33,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				147F3D772F952208007AB69B /* Wallah */,
+				1452FB4E2FA6498F00C45F74 /* WallahSaver */,
 				147F3D762F952208007AB69B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,13 +55,47 @@
 			isa = PBXGroup;
 			children = (
 				147F3D752F952208007AB69B /* Wallah.app */,
+				1452FB4D2FA6498F00C45F74 /* WallahSaver.saver */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		1452FB482FA6498F00C45F74 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
+		1452FB4C2FA6498F00C45F74 /* WallahSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1452FB552FA6498F00C45F74 /* Build configuration list for PBXNativeTarget "WallahSaver" */;
+			buildPhases = (
+				1452FB482FA6498F00C45F74 /* Headers */,
+				1452FB492FA6498F00C45F74 /* Sources */,
+				1452FB4A2FA6498F00C45F74 /* Frameworks */,
+				1452FB4B2FA6498F00C45F74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1452FB4E2FA6498F00C45F74 /* WallahSaver */,
+			);
+			name = WallahSaver;
+			packageProductDependencies = (
+			);
+			productName = WallahSaver;
+			productReference = 1452FB4D2FA6498F00C45F74 /* WallahSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
 		147F3D742F952208007AB69B /* Wallah */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 147F3D852F952209007AB69B /* Build configuration list for PBXNativeTarget "Wallah" */;
@@ -78,6 +126,10 @@
 				LastSwiftUpdateCheck = 2630;
 				LastUpgradeCheck = 2630;
 				TargetAttributes = {
+					1452FB4C2FA6498F00C45F74 = {
+						CreatedOnToolsVersion = 26.3;
+						LastSwiftMigration = 2630;
+					};
 					147F3D742F952208007AB69B = {
 						CreatedOnToolsVersion = 26.3;
 					};
@@ -98,11 +150,19 @@
 			projectRoot = "";
 			targets = (
 				147F3D742F952208007AB69B /* Wallah */,
+				1452FB4C2FA6498F00C45F74 /* WallahSaver */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1452FB4B2FA6498F00C45F74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		147F3D732F952208007AB69B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -113,6 +173,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1452FB492FA6498F00C45F74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		147F3D712F952208007AB69B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -123,6 +190,51 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		1452FB532FA6498F00C45F74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = WallahSaverView;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallah.app.WallahSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WallahSaver/WallahSaver-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		1452FB542FA6498F00C45F74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = WallahSaverView;
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wallah.app.WallahSaver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "WallahSaver/WallahSaver-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
 		147F3D832F952209007AB69B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -306,6 +418,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1452FB552FA6498F00C45F74 /* Build configuration list for PBXNativeTarget "WallahSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1452FB532FA6498F00C45F74 /* Debug */,
+				1452FB542FA6498F00C45F74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		147F3D702F952208007AB69B /* Build configuration list for PBXProject "Wallah" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
